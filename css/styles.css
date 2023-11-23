@@ -1,0 +1,54 @@
+:root {
+    --lightgray: hsl(212, 45%, 89%);
+    --fontOutfit: 'Outfit', sans-serif;
+    --grayishblue: hsl(220, 15%, 55%);
+}
+html {
+    font-size: 62.5%; /*Con esta regla 1rem = 10px*/
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--lightgray);
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    max-width: 300px;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.div-image img {
+    border-radius: 1rem;
+}
+
+.title h1 {
+    font-family: var(--fontOutfit);
+    font-size: 1.8rem;
+    text-wrap: balance;
+}
+
+.subtitle p {
+    font-family: var(--fontOutfit);
+    font-size: 15px;
+    color: var(--grayishblue);
+    text-wrap: balance;
+}
