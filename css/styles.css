@@ -3,6 +3,7 @@
     --fontOutfit: 'Outfit', sans-serif;
     --grayishblue: hsl(220, 15%, 55%);
 }
+
 html {
     font-size: 62.5%; /*Con esta regla 1rem = 10px*/
     box-sizing: border-box;
